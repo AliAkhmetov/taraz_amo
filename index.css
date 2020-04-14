@@ -1,18 +1,20 @@
 .room1 {
-  		width: 100px;
-  		height: 100px;
+  		width: 500px;
+  		height: 500px;
   		background-color: black;
   		border: 1px solid #fff;
   		box-shadow: 0 0 0 1px #A4A4A4;
  		position: relative;
   	}
-.light {
-  background: #00fefe;
+
+.circle {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
 }
-.room2 {
-  		width: 100px;
-  		height: 100px;
-  		background-color: white;
-  		border: 1px solid #A4A4A4;
-  		position: absolute;
-  	}
+    .light {
+      background: #00fefe;
+    }
